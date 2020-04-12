@@ -3,17 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6F021F26326C37D7AD6B95 /* Pods_Sweatworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522DA7995982FD0A4804F76A /* Pods_Sweatworks.framework */; };
+		2212BB0F244239BE00F91520 /* UserAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2212BB0E244239BE00F91520 /* UserAPIClient.m */; };
+		2212BB122442BFF600F91520 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2212BB112442BFF600F91520 /* data.json */; };
+		2212BB142442C03100F91520 /* UserDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212BB132442C03100F91520 /* UserDomain.swift */; };
+		2212BB162442C09700F91520 /* UserMockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212BB152442C09700F91520 /* UserMockRepository.swift */; };
+		2212BB182442C0B300F91520 /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212BB172442C0B300F91520 /* UserRepositoryProtocol.swift */; };
+		2262BA02244145570099616D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262BA01244145570099616D /* SearchBarView.swift */; };
+		2262BA0424415F720099616D /* UserListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262BA0324415F720099616D /* UserListRow.swift */; };
+		2274FDFA2443A4F8009885ED /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274FDF92443A4F8009885ED /* UserListView.swift */; };
+		2274FDFF2443AD0E009885ED /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2274FDFC2443AD0E009885ED /* Roboto-Bold.ttf */; };
+		2274FE002443AD0E009885ED /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2274FDFD2443AD0E009885ED /* Roboto-Regular.ttf */; };
+		2274FE052443B4E5009885ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2274FE072443B4E5009885ED /* Localizable.strings */; };
+		954B82B36FF5F83419D604E2 /* Pods_SweatworksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8ACD0850ADDAF31B05FB8D /* Pods_SweatworksTests.framework */; };
+		D1C82AF824412B5700112EFC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C82AF724412B5700112EFC /* User.swift */; };
+		D1C82AFE24412FDA00112EFC /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C82AFD24412FDA00112EFC /* UserListViewModel.swift */; };
 		D1D53BB6243FD00300A75831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D53BB5243FD00300A75831 /* AppDelegate.swift */; };
 		D1D53BB8243FD00300A75831 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D53BB7243FD00300A75831 /* SceneDelegate.swift */; };
-		D1D53BBA243FD00300A75831 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D53BB9243FD00300A75831 /* ContentView.swift */; };
 		D1D53BBC243FD00500A75831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D53BBB243FD00500A75831 /* Assets.xcassets */; };
 		D1D53BBF243FD00500A75831 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D53BBE243FD00500A75831 /* Preview Assets.xcassets */; };
 		D1D53BC2243FD00500A75831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D53BC0243FD00500A75831 /* LaunchScreen.storyboard */; };
 		D1D53BCD243FD00500A75831 /* SweatworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D53BCC243FD00500A75831 /* SweatworksTests.swift */; };
+		D1D783762440E2EA0034F66C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D783752440E2EA0034F66C /* DetailViewController.m */; };
+		D1D7837A2440E3900034F66C /* DetailViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D783792440E3900034F66C /* DetailViewInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +43,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E8ACD0850ADDAF31B05FB8D /* Pods_SweatworksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweatworksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2212BB0D244239A200F91520 /* UserAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAPIClient.h; sourceTree = "<group>"; };
+		2212BB0E244239BE00F91520 /* UserAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserAPIClient.m; sourceTree = "<group>"; };
+		2212BB112442BFF600F91520 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		2212BB132442C03100F91520 /* UserDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDomain.swift; sourceTree = "<group>"; };
+		2212BB152442C09700F91520 /* UserMockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMockRepository.swift; sourceTree = "<group>"; };
+		2212BB172442C0B300F91520 /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
+		2262BA01244145570099616D /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		2262BA0324415F720099616D /* UserListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRow.swift; sourceTree = "<group>"; };
+		2274FDF92443A4F8009885ED /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		2274FDFC2443AD0E009885ED /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2274FDFD2443AD0E009885ED /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		2274FE062443B4E5009885ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29A756BEA017E1D8D6AE369E /* Pods-SweatworksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweatworksTests.debug.xcconfig"; path = "Target Support Files/Pods-SweatworksTests/Pods-SweatworksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		522DA7995982FD0A4804F76A /* Pods_Sweatworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sweatworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C13532A9D133112A3B965F /* Pods-Sweatworks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweatworks.debug.xcconfig"; path = "Target Support Files/Pods-Sweatworks/Pods-Sweatworks.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C82AF724412B5700112EFC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D1C82AFD24412FDA00112EFC /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		D1D53BB2243FD00300A75831 /* Sweatworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweatworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D53BB5243FD00300A75831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1D53BB7243FD00300A75831 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1D53BB9243FD00300A75831 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1D53BBB243FD00500A75831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1D53BBE243FD00500A75831 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1D53BC1243FD00500A75831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +71,12 @@
 		D1D53BC8243FD00500A75831 /* SweatworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweatworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D53BCC243FD00500A75831 /* SweatworksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweatworksTests.swift; sourceTree = "<group>"; };
 		D1D53BCE243FD00500A75831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D783742440E2EA0034F66C /* Sweatworks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sweatworks-Bridging-Header.h"; sourceTree = "<group>"; };
+		D1D783752440E2EA0034F66C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D1D783792440E3900034F66C /* DetailViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewInterface.swift; sourceTree = "<group>"; };
+		D1D7837B2440E4590034F66C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E639BA542FAE8C8689FA5CC8 /* Pods-SweatworksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweatworksTests.release.xcconfig"; path = "Target Support Files/Pods-SweatworksTests/Pods-SweatworksTests.release.xcconfig"; sourceTree = "<group>"; };
+		F486AD437D4651939BD7BBAA /* Pods-Sweatworks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sweatworks.release.xcconfig"; path = "Target Support Files/Pods-Sweatworks/Pods-Sweatworks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6F021F26326C37D7AD6B95 /* Pods_Sweatworks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +92,100 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				954B82B36FF5F83419D604E2 /* Pods_SweatworksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2212BB0C2442353800F91520 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2212BB0D244239A200F91520 /* UserAPIClient.h */,
+				2212BB0E244239BE00F91520 /* UserAPIClient.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2212BB102442BF8D00F91520 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				2212BB112442BFF600F91520 /* data.json */,
+				2212BB132442C03100F91520 /* UserDomain.swift */,
+				2212BB152442C09700F91520 /* UserMockRepository.swift */,
+				2212BB172442C0B300F91520 /* UserRepositoryProtocol.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		2274FDF624438314009885ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2262BA01244145570099616D /* SearchBarView.swift */,
+				2262BA0324415F720099616D /* UserListRow.swift */,
+				D1D783792440E3900034F66C /* DetailViewInterface.swift */,
+				D1D783752440E2EA0034F66C /* DetailViewController.m */,
+				D1D7837B2440E4590034F66C /* DetailViewController.h */,
+				2274FDF92443A4F8009885ED /* UserListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2274FDF724438320009885ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1C82AF724412B5700112EFC /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2274FDF824438333009885ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1C82AFD24412FDA00112EFC /* UserListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2274FE012443AD1A009885ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2274FDFC2443AD0E009885ED /* Roboto-Bold.ttf */,
+				2274FDFD2443AD0E009885ED /* Roboto-Regular.ttf */,
+				2274FE072443B4E5009885ED /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63A072A9484F501DF5668D03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7C13532A9D133112A3B965F /* Pods-Sweatworks.debug.xcconfig */,
+				F486AD437D4651939BD7BBAA /* Pods-Sweatworks.release.xcconfig */,
+				29A756BEA017E1D8D6AE369E /* Pods-SweatworksTests.debug.xcconfig */,
+				E639BA542FAE8C8689FA5CC8 /* Pods-SweatworksTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CE88886A057010F8581AE3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522DA7995982FD0A4804F76A /* Pods_Sweatworks.framework */,
+				1E8ACD0850ADDAF31B05FB8D /* Pods_SweatworksTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1D53BA9243FD00300A75831 = {
 			isa = PBXGroup;
 			children = (
 				D1D53BB4243FD00300A75831 /* Sweatworks */,
 				D1D53BCB243FD00500A75831 /* SweatworksTests */,
 				D1D53BB3243FD00300A75831 /* Products */,
+				63A072A9484F501DF5668D03 /* Pods */,
+				7CE88886A057010F8581AE3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +203,13 @@
 			children = (
 				D1D53BB5243FD00300A75831 /* AppDelegate.swift */,
 				D1D53BB7243FD00300A75831 /* SceneDelegate.swift */,
-				D1D53BB9243FD00300A75831 /* ContentView.swift */,
+				D1D783742440E2EA0034F66C /* Sweatworks-Bridging-Header.h */,
+				2274FDF724438320009885ED /* Model */,
+				2274FDF624438314009885ED /* View */,
+				2274FDF824438333009885ED /* ViewModel */,
+				2212BB102442BF8D00F91520 /* Testing */,
+				2212BB0C2442353800F91520 /* Network */,
+				2274FE012443AD1A009885ED /* Resources */,
 				D1D53BBB243FD00500A75831 /* Assets.xcassets */,
 				D1D53BC0243FD00500A75831 /* LaunchScreen.storyboard */,
 				D1D53BC3243FD00500A75831 /* Info.plist */,
@@ -114,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1D53BD1243FD00500A75831 /* Build configuration list for PBXNativeTarget "Sweatworks" */;
 			buildPhases = (
+				3C7FF76C45FF2B375E08870B /* [CP] Check Pods Manifest.lock */,
 				D1D53BAE243FD00300A75831 /* Sources */,
 				D1D53BAF243FD00300A75831 /* Frameworks */,
 				D1D53BB0243FD00300A75831 /* Resources */,
+				9D4A3B651FD1B87D0AC1FD5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1D53BD4243FD00500A75831 /* Build configuration list for PBXNativeTarget "SweatworksTests" */;
 			buildPhases = (
+				E9D19B21D668A25031546872 /* [CP] Check Pods Manifest.lock */,
 				D1D53BC4243FD00500A75831 /* Sources */,
 				D1D53BC5243FD00500A75831 /* Frameworks */,
 				D1D53BC6243FD00500A75831 /* Resources */,
@@ -157,6 +288,7 @@
 				TargetAttributes = {
 					D1D53BB1243FD00300A75831 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					D1D53BC7243FD00500A75831 = {
 						CreatedOnToolsVersion = 11.4;
@@ -189,8 +321,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D53BC2243FD00500A75831 /* LaunchScreen.storyboard in Resources */,
+				2274FE002443AD0E009885ED /* Roboto-Regular.ttf in Resources */,
 				D1D53BBF243FD00500A75831 /* Preview Assets.xcassets in Resources */,
+				2274FDFF2443AD0E009885ED /* Roboto-Bold.ttf in Resources */,
 				D1D53BBC243FD00500A75831 /* Assets.xcassets in Resources */,
+				2274FE052443B4E5009885ED /* Localizable.strings in Resources */,
+				2212BB122442BFF600F91520 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,14 +339,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C7FF76C45FF2B375E08870B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sweatworks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4A3B651FD1B87D0AC1FD5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sweatworks/Pods-Sweatworks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sweatworks/Pods-Sweatworks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sweatworks/Pods-Sweatworks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D19B21D668A25031546872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweatworksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1D53BAE243FD00300A75831 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2262BA02244145570099616D /* SearchBarView.swift in Sources */,
+				2212BB0F244239BE00F91520 /* UserAPIClient.m in Sources */,
+				D1C82AFE24412FDA00112EFC /* UserListViewModel.swift in Sources */,
 				D1D53BB6243FD00300A75831 /* AppDelegate.swift in Sources */,
 				D1D53BB8243FD00300A75831 /* SceneDelegate.swift in Sources */,
-				D1D53BBA243FD00300A75831 /* ContentView.swift in Sources */,
+				2262BA0424415F720099616D /* UserListRow.swift in Sources */,
+				D1C82AF824412B5700112EFC /* User.swift in Sources */,
+				2274FDFA2443A4F8009885ED /* UserListView.swift in Sources */,
+				D1D7837A2440E3900034F66C /* DetailViewInterface.swift in Sources */,
+				2212BB162442C09700F91520 /* UserMockRepository.swift in Sources */,
+				2212BB142442C03100F91520 /* UserDomain.swift in Sources */,
+				2212BB182442C0B300F91520 /* UserRepositoryProtocol.swift in Sources */,
+				D1D783762440E2EA0034F66C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +443,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2274FE072443B4E5009885ED /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2274FE062443B4E5009885ED /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		D1D53BC0243FD00500A75831 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -248,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -308,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -360,18 +580,23 @@
 		};
 		D1D53BD2243FD00500A75831 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C13532A9D133112A3B965F /* Pods-Sweatworks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Sweatworks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sweatworks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Sweatworks.Sweatworks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sweatworks/Sweatworks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,18 +604,22 @@
 		};
 		D1D53BD3243FD00500A75831 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F486AD437D4651939BD7BBAA /* Pods-Sweatworks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Sweatworks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Sweatworks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Sweatworks.Sweatworks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sweatworks/Sweatworks-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -398,6 +627,7 @@
 		};
 		D1D53BD5243FD00500A75831 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A756BEA017E1D8D6AE369E /* Pods-SweatworksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +649,7 @@
 		};
 		D1D53BD6243FD00500A75831 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E639BA542FAE8C8689FA5CC8 /* Pods-SweatworksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
